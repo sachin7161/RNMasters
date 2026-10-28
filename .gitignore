@@ -1,0 +1,139 @@
+
+# ==========================================
+# RNMasters - .NET + Angular
+# ==========================================
+
+# .NET Build Results
+**/bin/
+**/obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Visual Studio Logs
+*.log
+*.binlog
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# .NET Temporary Files
+project.lock.json
+project.fragment.lock.json
+ScaffoldingReadMe.txt
+
+# Test Results & Coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+CodeCoverage/
+coverage/
+coverage-report/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.json
+appsettings.Local.json
+
+# Certificates & Keys
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Database Local Files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# ==========================================
+# Angular / Node.js
+# ==========================================
+
+# Dependencies
+**/node_modules/
+
+# Angular Cache
+**/.angular/cache/
+
+# Angular Build Output
+**/dist/
+**/out-tsc/
+
+# TypeScript Cache
+*.tsbuildinfo
+
+# npm / yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager caches
+.npm/
+.yarn/cache/
+.pnpm-store/
+
+# ==========================================
+# Editors & Operating System
+# ==========================================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+*.sln.iml
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary Files
+~
+~$
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# Project-Specific Generated Files
+# ==========================================
+
+frontend/malegaon-admin/.angular/cache/
+frontend/malegaon-admin/node_modules/
+frontend/malegaon-admin/dist/

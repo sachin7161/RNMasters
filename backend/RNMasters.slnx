@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RNMasterApi/RNMasterApi.csproj" Id="bc8be7d7-f726-4320-9d0a-1adb959e39ec" />
+    <Project Path="src/RNMasterApplication/RNMasterApplication.csproj" Id="46b2efbf-d816-45c6-824f-5f156354a589" />
+    <Project Path="src/RNMasterDomain/RNMasterDomain.csproj" Id="ec670fa4-b23c-4402-a345-2ef57d7c0a25" />
+    <Project Path="src/RNMasterInfrastructure/RNMasterInfrastructure.csproj" Id="13b389a4-3505-4a5a-ad4c-d2bf9aa9e571" />
+  </Folder>
+</Solution>
