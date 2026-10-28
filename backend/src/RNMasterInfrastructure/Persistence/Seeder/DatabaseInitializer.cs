@@ -18,8 +18,18 @@ public static class DatabaseInitializer
         var dbContext = scope.ServiceProvider
             .GetRequiredService<RNMasterDbContext>();
 
-        // Apply pending EF Core migrations
-        await dbContext.Database.MigrateAsync();
+        var pendingMigrations =
+     await dbContext.Database.GetPendingMigrationsAsync();
+
+        if (pendingMigrations.Any())
+        {
+            await dbContext.Database.MigrateAsync();
+        }
+        else
+        {
+            Console.WriteLine(
+                "Database is up to date. Skipping migrations.");
+        }
 
         // Execute database SQL scripts
         var databaseScriptService =
